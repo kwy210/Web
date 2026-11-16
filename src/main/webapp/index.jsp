@@ -1,20 +1,20 @@
+<%@page import="com.office.ex.Config"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<jsp:include page="./view/include/title.jsp"/>
 </head>
 <body>
   
   	<h2>HOME</h2>
   	
-	<a href="/firstpjt/">home</a>
-	&nbsp;&nbsp; | &nbsp;&nbsp;
-	<a href="/firstpjt/signup.mem">sign-up</a>
-	&nbsp;&nbsp; | &nbsp;&nbsp;
-	<a href="/firstpjt/signin.mem">sign-in</a>
+  	<jsp:include page="./view/include/nav.jsp"/>
+  	
+  	
+  	
   
 </body>
 </html>
